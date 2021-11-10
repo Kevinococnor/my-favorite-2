@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?familysItin&displayswap')
+body {
+    background-color: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+img {
+  border-radius : 50px;
+  width : 200px
+}
+
+ul {
+    align-items: center;
+}
+
+hr {
+    height: 6px;
+    background-color: #FAFAFA;
+    width: 260px;
+    margin:8px auto;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    list-style: none;
+    float: right;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10px;
+    color: aliceblue;
+}
+
+.links { 
+    float:left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+section1{
+    background: linear-gradient(90deg, rgba(158,70,130,1)0%, rgba(34,9,121,1))
+}
+
+.section2 {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
